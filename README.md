@@ -1,29 +1,32 @@
-# Universidad Tecnologica Nacional
-# Materia: TTADS 2019 
+<h1 align="center">
+  <img src="assets/img/UTN.png" alt="logo_utn">
+</h1>
+<h5 align="center">Universidad Tecnologica Nacional</h5>
 
-## Trabajo practico integrador materia Técnicas y Tecnologías Avanzadas de Desarrollo de Software.
+##### Materia: Técnicas y Tecnologías Avanzadas de Desarrollo de Software 2019 
 
-# Preparación del entorno de desarrollo 🛠️
+# Trabajo practico integrador
 
-Software necesario:
+## Entorno de desarrollo 🛠️
+
 * **Node.js v10.16.3**
-  * Express 
-  * Nodemon v1.18.11
-  * Mongoose
-  * Async
-  * Body Parser
+    * Express 
+    * Nodemon v1.18.11
+    * Mongoose
+    * Async
+    * Body Parser
 * **Node Package Name NPM v6.9.0**
 * **MongoDB v4**
-  * Compass
-  * MongoDB Shell
-  * MongoDB Server
+    * Compass
+    * MongoDB Shell
+    * MongoDB Server
 * **Angular v8.2.2**
-  * Angular Local Storage
-  * Angular Google Maps
+    * Angular Local Storage
+    * Angular Google Maps
 * **Bootstrap v4**
 
 
-# Node 🚀
+## Node 🚀
 
 * [Pagina Oficial ️️️️️⚡️](https://nodejs.org/es/) - Framework Node
 
@@ -33,22 +36,22 @@ Software necesario:
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
-# NPM 🚀
+## Node Package Manager 🚀
 
 ```
 sudo apt-get install npm
 ```
 
-# Angular 🚀
+## Angular 🚀
 
 [Pagina Oficial ⚡️](https://angular.io/start) - Framework front-end
-## Agregar Angular como dependencia al proyecto 🔧
+### Agregar Angular como dependencia al proyecto 🔧
 
 ```
 npm install -g @angular/cli
 ```
 
-## Crear proyecto y desplegarlo
+### Crear proyecto y desplegarlo
 ```
 ng new my-app
 cd my-app
@@ -57,21 +60,21 @@ ng serve –open
 	_The --open (or just -o) option automatically opens your browser to http://localhost:4200/._
 
 
-### Agregar un nuevo componente de "heroes" en angular 🔧
+#### Agregar un nuevo componente de "heroes" en angular 🔧
 ```
 ng generate component heroes
 ```
 
-# MongoDB 🚀
+## MongoDB 🚀
 
 * [Pagina Oficial ⚡️](https://www.mongodb.com/es) - Base de Datos mongodb
 
-## Mongo Daemon 🔧
+### Mongo Daemon 🔧
 ```
 mongod --dbpath /data/db --logpath /data/log/mongod.log --fork --replSet "M103" --keyFile /data/keyfile --bind_ip "127.0.0.1,192.168.0.100" --sslMode requireSSL --sslCAFile "/etc/ssl/SSLCA.pem" --sslPEMKeyFile "/etc/ssl/ssl.pem"
 ```
 
-## Mongo Database 🔧
+### Mongo Database 🔧
 
 ```
 mongo --username m001-student --password m001-mongodb-basics
