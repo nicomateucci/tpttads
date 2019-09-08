@@ -38,6 +38,8 @@ sudo apt-get install -y nodejs
 ```
 ## Node Package Manager 🚀
 
+[Comandos basicos NPM ⚡️](https://vortexbird.com/comandos-basicos-de-npm/)
+
 ```
 sudo apt-get install npm
 ```
