@@ -15,7 +15,7 @@
     * Mongoose
     * Async
     * Body Parser
-* **Node Package Name NPM v6.9.0**
+* **Node Package Manager NPM v6.9.0**
 * **MongoDB v4**
     * Compass
     * MongoDB Shell
@@ -40,6 +40,21 @@ sudo apt-get install -y nodejs
 
 [Comandos basicos NPM ⚡️](https://vortexbird.com/comandos-basicos-de-npm/)
 
+** npm is distributed with Node.js- which means that when you download Node.js, you automatically get npm installed on your computer.**
+### Check that you have node and npm installed
+```
+node -v
+npm -v
+```
+
+####A note on versions
+npm is a **separate project from Node.js**, and tends to update more frequently. As a result, even if you’ve just downloaded Node.js (and therefore npm), **you’ll probably need to update your npm**. Luckily, npm knows how to update itself! Run:
+
+```
+npm install npm@latest -g
+```
+
+### Instalar desde terminal:
 ```
 sudo apt-get install npm
 ```
