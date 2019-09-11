@@ -59,6 +59,18 @@ npm install npm@latest -g
 sudo apt-get install npm
 ```
 
+### Errores resueltos
+
+1. Setear repositorio y desactivar SSL
+```
+npm config set registry http://registry.npmjs.org/
+npm config set strict-ssl  false
+```
+
+2. Limpiar cache
+```
+npm cache clean (Si tira error agregar --force)
+```
 ## Angular 🚀
 
 [Pagina Oficial ⚡️](https://angular.io/start) - Framework front-end
@@ -74,7 +86,8 @@ ng new my-app
 cd my-app
 ng serve –open 
 ```
-	_The --open (or just -o) option automatically opens your browser to http://localhost:4200/._
+
+_The - -open (or just -o) option automatically opens your browser to http:/localhost:4200._
 
 
 #### Agregar un nuevo componente de "heroes" en angular 🔧
